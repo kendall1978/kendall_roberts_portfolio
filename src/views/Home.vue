@@ -1,16 +1,16 @@
 <template>
 <div>
   <!-- Rounded Circle Card -->
-  <b-card-group class="roundContainer">
+  <b-card-group class="roundContainer justify-content-center">
     <b-row>
-      <b-col xl="6">
+      <b-col class="col-12 col-lg-6">
         <b-card no-body class="text-center">
           <b-card-img :src="mugShot.img"  
           class="rounded-circle"></b-card-img>
         </b-card>
       </b-col>
       <!-- Title Card -->
-      <b-col>
+      <b-col class="col-12 col-lg-6">
         <b-card class="text-center" id="titleCard" >
           <h4>Kendall Roberts</h4>
             <b-card-text style="background-color: rgb(131,131,131);">
@@ -57,17 +57,17 @@ export default {
         cardContent: [{
           id: 1,
           title: "My Education",
-          content: "I've been interested in technology and code since I was in high school. My first project-setting me up to love this field-was putting RetroPie on a Raspberry Pi. Ever since then I've loved this field. So I went to Ozarks Technical Community College to improve my knowledge. I am currently half-way through my degree."
+          content: "I've been interested in technology and code since I was in high school. My first project-setting me up to love this field-was putting RetroPie on a Raspberry Pi. Ever since then I've loved this field. So I went to Ozarks Technical Community College and finished a degree in Computer Information Science"
           },
           {
             id: 2,
             title: "My Life",
-            content: "I played football and ran track in high school. The boys team and I went to state for track and field several years in a row. I play the guitar. Music can put people at ease and help improve their thoughts."
+            content: "Nerd for life, I love work on a computer and write code. I also find enjoyment in activities like fishing, hunting, hiking, and boating. Put me in a kayak on a river somewhere and I am one happy guy."
           },
           {
             id: 3,
             title: "My Future",
-            content: "My primary focus is finishing my associates degree in Computer Information Science. After that my goal is to land my first front-end developer job. My long-term goal is eventually to become a full-stack developer. At the end of the day I just want to learn all that I can about web development."
+            content: "My long term goal is to be a well respected full stack software engineer with a project manager role in mind. My short term goals are always to continue to challege myself with new technologies and write quality code. At the end of the day I just want to learn all that I can about web development."
           }
           
         ]
@@ -125,7 +125,6 @@ export default {
 .roundContainer{
   width: 100%;
   height: 80%;
-  background-color: rgb(131, 131, 131);
 
   
 }
